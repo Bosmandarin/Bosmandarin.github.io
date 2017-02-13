@@ -1,0 +1,72 @@
+body{
+	background-color: white;
+
+}
+
+image-container{
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px; /*half the image width*/
+    margin-top: -50px; /*half the image height*/
+}
+
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+ li{
+	display: inline;
+	float: right;
+	padding: 0px;
+}
+ li a{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-style: normal;
+	font-size: 17px;
+	font-weight: lighter;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 25px;
+	text-decoration: none;
+}
+ li a:hover{
+	background-color: purple;
+}
+
+
+#photography{
+	background-color: pink;
+	margin: 0px;
+	height: 700px;
+	padding: 0%
+}
+
+
+h2{
+	font-family: "Lucida Console", Monaco, monospace;
+	font-style: bold;
+	font-size: 20px;
+	font-weight: lighter;
+	text-align: center;
+	padding:25px;
+	color: purple;
+	
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
