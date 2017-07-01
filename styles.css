@@ -1,0 +1,519 @@
+
+html,body
+{
+margin:0px;
+padding:0px;
+}
+.imgination{
+  width: 100%;
+  background-color: black;
+  height: 600px;
+}
+.imgination img{
+  width: 70%;
+  position: relative;
+  left: 250px;
+  top: 50px;
+}
+.nav{
+    /*border:1px solid #ccc;*/
+    /*border-width:1px 0;*/
+    list-style:none;
+    margin:0;
+    /*padding:0;*/
+    text-align:right;
+    background-color:none;
+    width: 100%;
+    /*padding-right: 20px;*/
+    /*margin-right: 200px;*/
+    /*position: fixed;*/
+     /*background: rgba(255, 255, 255, 0.7);
+     top: 0;
+     left: 0;
+     right:0;*/
+
+}
+
+.nav li{
+    display:inline;
+    padding-right: 50px;
+    /*margin-right: 50px;*/
+}
+.nav a{
+    display:inline-block;
+    /*padding:40px;*/
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    /*font-family: "Roboto Mono", monospace;*/
+    font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+    font-weight: lighter;
+    color: #e2afe1;
+}
+
+.nav a:hover{
+  /*text-decoration: line-through;*/
+  /*opacity: 30%;*/
+  /*color: #ced3cd;
+  font-weight: lighter;*/
+  /*font-size: 10px;*/
+  /*color: white;*/
+  text-decoration: line-through;
+  /*background-color: black;
+  opacity: 0.9;
+  padding: 40px;*/
+}
+.nav img{
+  float: left;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+.nav img:hover{
+  background-color: black;
+  /*padding: 5px;*/
+  opacity: 0.9;
+}
+#DivMain{
+	position:relative;
+	width:100%;
+	height:600px;
+	background-color:#887898;
+}
+
+
+#DivMain img{
+  position: absolute;
+  bottom: 240px;
+  left: 70px;
+}
+#DivMain h4{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 630px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 50px;
+}
+
+#DivMain h4:hover{
+  background-color: white;
+  color: #887898;
+  border: none;
+}
+
+#DivMain1{
+	position:relative;
+	width:100%;
+	height:600px;
+	background-color:#0c142d;
+}
+
+#DivMain1 h4{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 835px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 110px;
+}
+#DivMain1 h5{
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  float: right;
+  color: orange;
+  padding-right: 90px;
+  padding-top: -100px;
+  position: absolute;
+  bottom: 200px;
+  margin-left: 830px;
+}
+#DivMain1 h6{
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  float: right;
+  color: white;
+  padding-right: 120px;
+  padding-top: -300px;
+  position: absolute;
+  bottom: 200px;
+  margin-left: 835px;
+
+}
+#DivMain1 p{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  float: right;
+  color: white;
+  padding-right: 120px;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 190px;
+  margin-left: 835px;
+  border-top: solid;
+}
+
+#DivMain1 img{
+  padding-left: 270px;
+  padding-top: -100px;
+  position: absolute;
+  bottom: 60px;
+  margin-left: -50px;
+}
+
+
+#DivMain1 h4:hover{
+  background-color: white;
+  color: #0c142d;
+}
+
+#DivMain2{
+	position:relative;
+	width:100%;
+	height:600px;
+	/*background-color:#B3B3B3;*/
+  background-color:#EE4266;
+}
+
+#DivMain2 h4{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  color: #571826;
+  border-style: solid;
+  border-width: thin;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 100px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 120px;
+}
+
+#DivMain2 h5{
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  float: left;
+  /*color: #860F1E;*/
+  color: white;
+  padding-right: 90px;
+  padding-top: 100px;
+  /*position: absolute;
+  bottom: 350px;*/
+  margin-left: 100px;
+}
+#DivMain2 h6{
+  font-family: Century Gothic, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  float: left;
+  color: #571826;
+  padding-right: 120px;
+  padding-top: -300px;
+  position: absolute;
+  bottom: 270px;
+  margin-left: 100px;
+
+}
+#DivMain2 p{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  float: left;
+  color: white;
+  padding-right: 120px;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 200px;
+  margin-left: 100px;
+  border-top: solid;
+  width: 390px;
+}
+#DivMain2 img{
+  padding-top: 140px;
+  /*margin-left: -10px;*/
+  padding-left: 10px;
+  padding-top: -100px;
+  position: absolute;
+  bottom: 100px;
+  margin-left: -70px;
+  margin-right: 150px;
+}
+
+#DivMain2 h4:hover{
+  background-color: white;
+  color: #571826;
+  border: none;
+}
+
+#DivMain3{
+	/*position:relative;
+	width:100%;
+	height:600px;*/
+	/*background-color:#5B4E68;*/
+  background-color:black;
+}
+
+#DivMain3 h4{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 630px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 50px;
+}
+
+#DivMain3 h4:hover{
+  background-color: white;
+  color: #5B4E68;
+}
+
+#DivMain3 video{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0px;
+    left:90px;
+    right:0;
+    bottom:200px;
+    /*background-size:cover;*/
+}
+
+#DivMain4{
+  position:relative;
+  width:100%;
+  height:300px;
+  /*background-color:#0c142d;*/
+  background-color:white;
+}
+
+#DivMain4 h4{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  color: white;
+  /*border-color: blue;*/
+  border-radius: 1px;
+  background-color: #6c57f3;
+  border-style: solid;
+  border-width: thin;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 100px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 100px;
+  display: inline-block;
+
+}
+
+#DivMain4 a{
+  text-decoration: none;
+  color: white;
+}
+
+#DivMain4 a:hover{
+  color: black;
+}
+
+#Div1{
+  margin-left: 200px;
+  color: orange;
+
+}
+#Div2{
+  margin-left: 520px;
+}
+#Div3{
+  margin-left: 840px;
+}
+
+#DivMain4 h5{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  color: black;
+  border-style: solid;
+  border-width: thin;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 300px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 110px;
+  display: block;
+}
+
+#DivMain4 h6{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  color: black;
+  border-style: solid;
+  border-width: thin;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 500px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 110px;
+  display: block;
+}
+
+#DivMain4 h7{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight:lighter;
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  margin-left: 600px;
+  bottom: 200px;
+}
+
+#DivMain4 h8{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight:lighter;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 500px;
+  bottom: 150px;
+
+}
+#DivMain4 h9{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight:lighter;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 600px;
+  bottom: 100px;
+}
+#DivMain4 h10{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight:lighter;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 600px;
+  bottom: 50px;
+}
+
+#DivMain6{
+	position:relative;
+	width:100%;
+	height:650px;
+	background-color:#0c142d;
+}
+
+#DivMain6 h4{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  margin-left: 835px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 50px;
+}
+#DivMain6 h5{
+  font-family: 'rm-pro',Arial,sans-serif;
+  font-weight: bold;
+  font-size: 100px;
+  float: right;
+  color: #6c57f3;
+  padding-right: 90px;
+  padding-top: -100px;
+  position: absolute;
+  bottom: 300px;
+  margin-left: 830px;
+}
+#DivMain6 h6{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  font-size: 30px;
+  float: right;
+  text-align: center;
+  color: white;
+  padding-right: 100px;
+  padding-top: -300px;
+  position: absolute;
+  bottom: 360px;
+  margin-left: 840px;
+
+}
+#DivMain6 p{
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  float: right;
+  color: #afa7e7;
+  padding-right: 120px;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 140px;
+  margin-left: 835px;
+  border-top: solid;
+
+}
+
+#DivMain6 img{
+  padding-left: 200px;
+  padding-top: -100px;
+  position: absolute;
+  bottom: 60px;
+  margin-left: -50px;
+}
+
+
+#DivMain6 h4:hover{
+  background-color: white;
+  color: #0c142d;
+}
+
+.resumeContainer{
+    /*float:left;*/
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+/*#DivMain4 h5{
+
+}
+#DivMain4 h6{
+
+}*/
+/*#DivMain3 video{
+  position: absolute;
+  bottom: 20px;
+  margin-left: 200px;
+  margin-right: 150px;
+}*/

@@ -1,0 +1,451 @@
+html,body
+{
+margin:0px;
+padding:0px;
+}
+
+#DivHeader
+{
+  position:relative;
+  display:block;
+  width:100%;
+  font-family: Century Gothic, sans-serif;
+  /*background-color:#3b5998;*/
+  /*background-color: black;*/
+  background-color: #887898;
+  overflow: hidden;
+}
+
+#DivLogo {
+	position:relative;
+	float:left;         /*please remove this property and run*/
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.Logo
+{
+	margin-left:40px;
+	margin-right:20px;
+	color:#fff;
+}
+
+#SpLogo{
+  color: #D2CED5;
+  /*color: #5B4E68;*/
+	font-size:70px;
+	font-weight:lighter;
+}
+
+#DivNav{
+	/*position:absolute;
+	right:40px;
+	bottom:60px;
+	font-size:13px;*/
+	/*font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;*/
+}
+
+#DivNav a{
+	/*text-decoration:none;*/
+	color:#5B4E68;
+	margin-left:40px;
+}
+
+#DivNav a:hover{
+  color: white;
+  /*background-color: white;
+	text-decoration:underline;*/
+}
+
+#maindiv h1{
+  color: #D2CED5;
+  /*color: #5B4E68;*/
+	font-size:30px;
+	font-weight:lighter;
+  text-decoration: none;
+  /*position: absolute;*/
+}
+
+#maindiv h1:hover{
+  color: white;
+}
+
+#navdiv{
+  overflow: hidden;
+  /*position: fixed;*/
+  top: 0px;
+  width: 100%;
+  position:absolute;
+	/*right:10px;*/
+	/*bottom:60px;*/
+	font-size:13px;
+  background-color:#0c142d;
+}
+
+#navdiv ul{
+
+  width: 100%;
+  height: 50px;
+  margin-left:1100px;
+
+}
+
+#navdiv ul a{
+  text-decoration: none;
+  /*color:#5B4E68;*/
+  color:white;
+  /*color: black;*/
+  padding: 10px;
+  padding-left: 10px;
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+
+#navdiv ul li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 0px;
+}
+
+/* This was the former hover command that put a block over the nav bar elements
+#navdiv ul li:hover{
+  background: #e6e6e6;
+  backface-visibility: visible;
+  transition: all 0.4s;
+}*/
+
+#navdiv ul li a:hover{
+  /*color: #e6e6e6;*/
+  text-decoration: line-through;
+  /*transition: all 0.4s; slowly turns into that color*/
+}
+
+.column2{
+  display: inline-block;
+}
+/*.profileImage{
+  padding-top: 50px;
+  margin-left: 50px;
+}*/
+
+.profileInformation{
+  padding-top: 50px;
+  margin-left: 50px;
+  text-align: right;
+
+}
+
+.resume object{
+  margin-left: 1500px;
+}
+
+.absolute-text{
+  position: absolute;
+  bottom: 0;
+  font-size: 32px;
+  font-family: "vedana";
+  background: white;
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.pagephoto img{
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.image_container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgContainer{
+    /*float:left;*/
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.imgContainer h1{
+  position: absolute;
+}
+.image123{
+  margin-left: 180px;
+
+}
+.image456{
+  margin-left: 170px;
+}
+.image789{
+  margin-left: 140px;
+}
+.image101112{
+  margin-left: 110px;
+}
+
+#imagelist a{
+  width: 20px;
+  height: auto;
+}
+p{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight: lighter;
+}
+
+.one img{
+  height: auto;
+  width: 400px;
+  padding-top: 100px;
+  padding-bottom: 100px
+  display: block;
+  margin-left: 550px;
+  margin-right: auto;
+}
+.one p{
+  margin-left: 550px;
+  margin-top: 10px;
+  margin-top: 20px;
+  padding-bottom: 20px
+}
+
+.two img{
+  height: auto;
+  width: 400px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.two p{
+  margin-left: 550px;
+  margin-top: 10px;
+  margin-top: 20px;
+  padding-bottom: 20px
+}
+.three img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.three p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.four img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.four p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.five img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.five p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.six img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.six p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.seven img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.seven p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.eight img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.eight p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.nine img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.nine p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.ten img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.ten p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.eleven img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.eleven p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+.twelve img{
+  height: auto;
+  width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 550px;
+}
+.twelve p{
+  margin-left: 550px;
+  margin-top: 10px;
+  padding-bottom: 20px
+}
+
+.video123{
+  margin-left: 275px;
+
+}
+
+.graphicContainer{
+    /*float:left;*/
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.graphicContainer1{
+  padding-bottom: 20px;
+}
+
+.graphic123{
+  margin-left: 275px;
+
+}
+.graphic456{
+  margin-left: 300px;
+}
+
+.graphic654{
+  margin-left: 480px;
+}
+.graphic789{
+  margin-left: 150px;
+}
+
+.graphic987{
+  margin-left: 300px;
+}
+.graphic101112{
+  margin-left: 100px;
+}
+
+.column2{
+  background-color:#b8a9c9;
+  height: 600px;
+  width: 100%;
+  padding: 0px;
+}
+
+.profilePhoto{
+    width:55%;
+    margin-right:2%;
+    float: left;
+}
+.profilePhoto img{
+   width:665px;
+   height:auto;
+   padding-left: 8%;
+}
+.profileInfo {
+    width:30%;
+    float: right;
+    padding-top: 190px;
+    padding-right: 100px;
+    padding-left: 5px;
+}
+.profileInfo p{
+  font-size: 40px;
+  text-align: left;
+}
+.profileInfo h1{
+  font-size: 60px;
+}
+
+.profilePhoto1{
+    width:55%;
+    margin-left:500%;
+    float: right;
+}
+.profilePhoto1 img{
+   width:665px;
+   height:auto;
+   padding-left: 10%;
+}
+.profileInfo1 {
+    width:30%;
+    float: left;
+    margin-right:2%;
+}
+.profileInfo1 p{
+  font-size: 40px;
+  text-align: right;
+}
+.clearfix{
+    clear:both
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* This is code for the web design page
+,,,*/
