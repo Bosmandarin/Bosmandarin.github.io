@@ -1,8 +1,12 @@
 
 html,body
 {
-margin:0px;
-padding:0px;
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+	background-image: url("tife_in_scotland.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 .imgination{
   width: 100%;
@@ -71,9 +75,11 @@ padding:0px;
 }
 
 .nav img:hover{
-  background-color: black;
+  /*background-color: black;*/
   /*padding: 5px;*/
-  opacity: 0.9;
+  border-right: 1px solid;
+  border-right-color: white
+  /*opacity: 0.9;*/
 }
 #DivMain{
 	position:relative;
@@ -104,20 +110,24 @@ padding:0px;
 }
 
 #DivMain h4:hover{
-  background-color: white;
+  /*background-color: white;
   color: #887898;
-  border: none;
+  border: none;*/
+  border-radius: 20px;
+  color: pink;
 }
 
 #DivMain1{
 	position:relative;
 	width:100%;
 	height:600px;
-	background-color:#0c142d;
+	/*background-color:#0c142d;*/
+  background: linear-gradient(#010512, #0c142d);
 }
 
 #DivMain1 h4{
-  font-family: Century Gothic, sans-serif;
+  /*font-family: Century Gothic, sans-serif;*/
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
   font-weight: lighter;
   color: white;
   border-style: solid;
@@ -131,8 +141,8 @@ padding:0px;
   bottom: 110px;
 }
 #DivMain1 h5{
-  font-family: Century Gothic, sans-serif;
-  font-weight: bold;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight: lighter;
   font-size: 100px;
   float: right;
   color: orange;
@@ -156,7 +166,7 @@ padding:0px;
 
 }
 #DivMain1 p{
-  font-family: Century Gothic, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
   font-weight: lighter;
   font-size: 20px;
   float: right;
@@ -179,8 +189,10 @@ padding:0px;
 
 
 #DivMain1 h4:hover{
-  background-color: white;
-  color: #0c142d;
+  /*background-color: white;
+  color: #0c142d;*/
+  border-radius: 20px;
+  color: pink;
 }
 
 #DivMain2{
@@ -188,13 +200,16 @@ padding:0px;
 	width:100%;
 	height:600px;
 	/*background-color:#B3B3B3;*/
-  background-color:#EE4266;
+  /*background-color:#EE4266;*/
+  background: linear-gradient(#EE4266, red);
+  /*background: linear-gradient(red, #f90303);*/
 }
 
 #DivMain2 h4{
-  font-family: Century Gothic, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
   font-weight: lighter;
   color: #571826;
+  /*color: blue;*/
   border-style: solid;
   border-width: thin;
   width: 200px;
@@ -204,11 +219,17 @@ padding:0px;
   line-height: 50px;
   position: absolute;
   bottom: 120px;
+
+}
+
+#DivMain2 h4:hover{
+  border-radius: 20px;
+  color: pink;
 }
 
 #DivMain2 h5{
-  font-family: Century Gothic, sans-serif;
-  font-weight: bold;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight: lighter;
   font-size: 70px;
   float: left;
   /*color: #860F1E;*/
@@ -220,7 +241,7 @@ padding:0px;
   margin-left: 100px;
 }
 #DivMain2 h6{
-  font-family: Century Gothic, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
   font-weight: bold;
   font-size: 50px;
   float: left;
@@ -233,7 +254,7 @@ padding:0px;
 
 }
 #DivMain2 p{
-  font-family: Century Gothic, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
   font-weight: lighter;
   font-size: 20px;
   float: left;
@@ -253,13 +274,13 @@ padding:0px;
   padding-top: -100px;
   position: absolute;
   bottom: 100px;
-  margin-left: -70px;
+  margin-left: -30px;
   margin-right: 150px;
 }
 
-#DivMain2 h4:hover{
-  background-color: white;
-  color: #571826;
+#DivMain2 a:hover{
+  /*background-color: white;*/
+  /*color: #571826;*/
   border: none;
 }
 
@@ -268,7 +289,36 @@ padding:0px;
 	width:100%;
 	height:600px;*/
 	/*background-color:#5B4E68;*/
-  background-color:black;
+  /*background-color:black;*/
+
+  background-color:#e7ff03;
+  /*opacity: 0.5;*/
+  position:relative;
+  width:100%;
+  height:700px;
+}
+
+#DivMain3 img{
+  position:absolute;
+   bottom:280px;
+    left: 620px;
+}
+
+.crossRotate {
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+     transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+     transition-property: transform;
+}
+
+.crossRotate:hover {
+    -webkit-transform: rotate(1440deg);
+    -ms-transform: rotate(1440deg);
+     transform: rotate(1440deg);
 }
 
 #DivMain3 h4{
@@ -296,9 +346,9 @@ padding:0px;
     padding: 0;
     position: relative;
     top: 0px;
-    left:90px;
+    left:100px;
     right:0;
-    bottom:200px;
+    bottom:220px;
     /*background-size:cover;*/
 }
 
@@ -307,16 +357,21 @@ padding:0px;
   width:100%;
   height:300px;
   /*background-color:#0c142d;*/
-  background-color:white;
+  background: linear-gradient(purple, red);
+  /*background-color:white;*/
+  color: white;
+  /*background: linear-gradient(#010512, #0c142d;);*/
+  /*background-image: url("Tife_In_Studio.jpg");*/
 }
 
 #DivMain4 h4{
   font-family: Century Gothic, sans-serif;
   font-weight: lighter;
+  /*color: #6c57f3;*/
   color: white;
   /*border-color: blue;*/
-  border-radius: 1px;
-  background-color: #6c57f3;
+  /*border-radius: 3px;*/
+  /*background-color: #6c57f3;*/
   border-style: solid;
   border-width: thin;
   width: 200px;
@@ -327,21 +382,28 @@ padding:0px;
   position: absolute;
   bottom: 100px;
   display: inline-block;
+  border-radius: none;
+  -webkit-transition: border-radius 0.2s; /* Safari 3.1 to 6.0 */
+  transition: border-radius 0.2s;
 
+}
+#DivMain4 h4:hover{
+  border-radius: 30px;
 }
 
 #DivMain4 a{
   text-decoration: none;
+  /*color: #6c57f3;*/
   color: white;
 }
 
 #DivMain4 a:hover{
-  color: black;
+  /*color: white;*/
+  text-decoration: line-through;
 }
 
 #Div1{
   margin-left: 200px;
-  color: orange;
 
 }
 #Div2{
@@ -422,17 +484,51 @@ padding:0px;
   bottom: 50px;
 }
 
+#DivMain4 img{
+  position: absolute;
+  margin-left: 300px;
+  bottom: 0px;
+}
+
+#DivMain6.icon{
+  position: absolute;
+  margin-left: 500px;
+  bottom: 0px;
+}
+
 #DivMain6{
 	position:relative;
 	width:100%;
 	height:650px;
-	background-color:#0c142d;
+	/*background-color:#0c142d;*/
+  background: linear-gradient(#010512, #0c142d);
+}
+
+#DivMain12{
+	position:relative;
+	width:100%;
+	height:700px;
+	/*background-color:#0c142d;*/
+  /*background-image: url("Tife web frontage.jpg");*/
+  /*background: linear-gradient(#010512, #0c142d);*/
+}
+
+#DivMain12 h1{
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight: lighter;
+  font-size: 400px;
+  color: white;
+  /*padding-right: 90px;
+  padding-top: -100px;*/
+  position: absolute;
+  bottom: -120px;
+  margin-left: 50px;
 }
 
 #DivMain6 h4{
   font-family: Century Gothic, sans-serif;
   font-weight: lighter;
-  color: white;
+  color: #6c57f3;
   border-style: solid;
   border-width: thin;
   width: 200px;
@@ -443,9 +539,19 @@ padding:0px;
   position: absolute;
   bottom: 50px;
 }
+
+#DivMain6 h4:hover{
+  background-color: #6c57f3;
+  color: #0c142d;
+}
+#DivMain6 h4 a:hover{
+  /*background-color: white;*/
+  color: red;
+}
+
 #DivMain6 h5{
-  font-family: 'rm-pro',Arial,sans-serif;
-  font-weight: bold;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight: lighter;
   font-size: 100px;
   float: right;
   color: #6c57f3;
@@ -456,7 +562,7 @@ padding:0px;
   margin-left: 830px;
 }
 #DivMain6 h6{
-  font-family: Century Gothic, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
   font-weight: lighter;
   font-size: 30px;
   float: right;
@@ -470,7 +576,8 @@ padding:0px;
 
 }
 #DivMain6 p{
-  font-family: Century Gothic, sans-serif;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  /*font-family: Century Gothic, sans-serif;*/
   font-weight: lighter;
   font-size: 20px;
   float: right;
@@ -478,7 +585,7 @@ padding:0px;
   padding-right: 120px;
   padding-top: 20px;
   position: absolute;
-  bottom: 140px;
+  bottom: 160px;
   margin-left: 835px;
   border-top: solid;
 
@@ -490,12 +597,7 @@ padding:0px;
   position: absolute;
   bottom: 75px;
   margin-left: -50px;
-}
-
-
-#DivMain6 h4:hover{
-  background-color: white;
-  color: #0c142d;
+  /*border: 1px solid white;*/
 }
 
 .resumeContainer{
@@ -505,15 +607,407 @@ padding:0px;
     padding-bottom: 20px;
     padding-left: 20px;
 }
-/*#DivMain4 h5{
 
+#DivMain8{
+    height: 200px;
+    width: 100%;
+    color:#e7ff03;
+    background-color: black;
+    position:relative;
+    width:100%;
+    height:600px;
 }
-#DivMain4 h6{
 
+/*#DivMain8 form{
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight: lighter;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 700px;
+  margin-right: 600px;
+  float: left;
 }*/
-/*#DivMain3 video{
+
+/*input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    position: absolute;
+    left: 200px;
+    bottom: 70px;
+}*/
+/*
+input[name="firstname"] {
+    position: absolute;
+    left: 100px;
+    bottom: 30px;
+}*/
+
+/*input[type=submit]{
+    background-color: #e7ff03;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 200px;
+    bottom: 70px;
+}
+
+input[type=reset] {
+    background-color: #e7ff03;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 400px;
+    bottom: 70px;
+}*/
+
+#DivMain8 h5{
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight: bold;
+  font-size: 70px;
   position: absolute;
   bottom: 20px;
-  margin-left: 200px;
-  margin-right: 150px;
-}*/
+  margin-left: 570px;
+  margin-right: 600px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  bottom: 300px;
+  display: block;
+  color: white;
+
+}
+
+#DivMain8 h6{
+  content: '';
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 680px;
+  margin-right: 600px;
+  text-align: center;
+  line-height: 15px;
+  position: absolute;
+  bottom: 320px;
+  display: block;
+  border-bottom-width: thin;
+  border-bottom-color: #e7ff03;
+  border-bottom-style: ridge;
+  padding-bottom: 0px;
+
+
+}
+
+#DivMain8 p{
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 30px;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 450px;
+  text-align: center;
+  /*line-height: 50px;*/
+  position: absolute;
+  bottom: 200px;
+  display: block;
+}
+
+#DivMain8 a{
+  text-decoration: none;
+  color:#e7ff03;
+}
+
+#DivMain8 button{
+  position: absolute;
+  bottom: 100px;
+  left: 640px;
+  border: 2px solid #e7ff03;
+  /*#66fcf1;*/
+  letter-spacing: 3px;
+  color: #fff;
+  background-color: inherit;
+  font-size: 16px;
+  padding: 16px;
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#DivMain8 button:hover{
+  background-color: #e7ff03;
+  border: none;
+  color: black;
+}
+
+#DivMain14{
+  color:black;
+  background-color: white;
+  position:relative;
+  width:100%;
+  height:300px;
+}
+#DivMain14 h7{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight:lighter;
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  margin-left: 600px;
+  bottom: 200px;
+}
+
+#DivMain14 h8{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight:lighter;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 500px;
+  bottom: 150px;
+
+}
+#DivMain14 h9{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight:lighter;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 600px;
+  bottom: 100px;
+}
+#DivMain14 h10{
+  font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight:lighter;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  margin-left: 600px;
+  bottom: 50px;
+}
+
+#DivMain14 img{
+  position: absolute;
+  margin-left: 300px;
+  bottom: 0px;
+}
+
+#DivMain15{
+  height: 150px;
+  width: 100%
+  position: relative;
+  background-color: black;
+  border-top-style: groove;
+  border-top-width: thin;
+  border-top-color: grey;
+
+}
+#DivMain15 p{
+  color: grey;
+  position: absolute;
+  left: 630px;
+  padding-top: 60px;
+  font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+  font-weight: lighter;
+  /*bottom: 30px;*/
+}
+#DivMain15 img{
+  position: absolute;
+  padding-top: 40px;
+  /*bottom: 20px;*/
+  left: 720px;
+
+}
+.imager h4{
+  #DivMain1 h4{
+    /*font-family: Century Gothic, sans-serif;*/
+    font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+    font-weight: lighter;
+    color: white;
+    border-style: solid;
+    border-width: thin;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin-left: 835px;
+    line-height: 50px;
+    position: absolute;
+    bottom: 110px;
+  }
+}
+
+@media all and (max-width:864px) {
+
+  .nav{
+      list-style:none;
+      margin:0;
+      text-align:right;
+      background-color:none;
+      width: 100%;
+  }
+
+  .nav li{
+      display:inline;
+      padding-right: 10px;
+  }
+  .nav a{
+      display:inline-block;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      padding-right: 60px;
+      text-decoration: none;
+      font-family:-apple-system, "Helvetica Neue", "Lucida Grande";
+      font-weight: lighter;
+      color: #e2afe1;
+  }
+    #DivMain3 {
+      height: 400px;
+    }
+
+  #DivMain3 img{
+    position:absolute;
+
+    margin-left:-250px;
+    top: 40px;
+    width:200px;
+    height:auto;
+  }
+#DivMain4 h4{
+margin-left: 30px;
+}
+#Div1{
+  margin-left: 50px;
+
+}
+#Div2{
+  margin-left: 300px;
+}
+#Div3{
+  margin-left: 550px;
+}
+  #DivMain6{
+    height: 1200px;
+  }
+  #DivMain6 img{
+    padding-left: 200px;
+    /*padding-top: -150px;*/
+    position: absolute;
+    bottom: 410px;
+    margin-left: -30px;
+    /*border: 1px solid white;*/
+  }
+    #DivMain6 h4{
+      position: absolute;
+      /*bottom: 800px;*/
+      margin-left: 350px;
+
+    }
+    #DivMain6 h5{
+      font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+      font-weight: lighter;
+      font-size: 130px;
+      /*float: right;*/
+      padding-right: 90px;
+      padding-top: -100px;
+      position: absolute;
+      bottom: 800px;
+      margin-left: 200px;
+    }
+    #DivMain6 h6{
+      font-size: 40px;
+      padding-right: 100px;
+      padding-top: -300px;
+      position: absolute;
+      bottom: 870px;
+      margin-left: 175px;
+
+    }
+    #DivMain6 p{
+      padding-right: 120px;
+      padding-top: 20px;
+      position: absolute;
+      bottom: 100px;
+      margin-left: 180px;
+      border-top: solid;
+    }
+#DivMain8 h5{
+  margin-left: 280px;
+}
+#DivMain8 h6{
+  margin-left: 410px;
+}
+#DivMain8 p{
+  margin-left: 150px;
+}
+#DivMain8 button{
+  margin-left: -300px;
+}
+
+#DivMain15 img{
+margin-left: -315px;
+}
+#DivMain15 p{
+  margin-left: -315px;
+}
+
+  .imgination{
+    width: 100%;
+    background-color: black;
+    height: 400px;
+  }
+  .imgination img{
+    width: 70%;
+    position: relative;
+    left: 150px;
+    top: 50px;
+  }
+
+  #DivMain12{
+  	position:relative;
+  	width:100%;
+  	height:380px;
+  	/*background-color:#0c142d;*/
+    /*background-image: url("Tife web frontage.jpg");*/
+    /*background: linear-gradient(#010512, #0c142d);*/
+  }
+
+  #DivMain12 h1{
+    font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
+    font-weight: lighter;
+    font-size: 200px;
+    color: red;
+    /*padding-right: 90px;
+    padding-top: -100px;*/
+    position: absolute;
+    bottom: 800px;
+    margin-left: 40px;
+  }
+
+  #DivMain14 h7{
+    margin-left: 340px;
+  }
+    #DivMain14 h8{
+      margin-left: 240px;
+  }
+  #DivMain14 h9{
+    margin-left: 340px;
+}
+#DivMain14 h10{
+  margin-left: 340px;
+}
+#DivMain14 img{
+  position: absolute;
+  margin-left: 100px;
+  bottom: 0px;
+}
+}
